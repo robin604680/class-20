@@ -1,0 +1,213 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(../images/bg-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 670px;
+    overflow: hidden;
+ }
+ header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 13, 87, 0.85)
+ }
+ .header {
+    position: relative;
+    z-index: 9999;
+    margin-top: 25px;
+ }
+.header-text h2{
+    margin-top: 181px;
+    margin-bottom: 51px;
+}
+.header-text .header-btn{
+    margin-top: 65px;
+}
+
+/* Our-story */
+
+.our-story{
+    height: 400px;
+    width: 100%;
+    margin-top: 70px;
+}
+.our-story .story-btn{
+    margin-top: 30px;
+}
+.expertise{
+    margin-top: 75px;
+}
+.big-logo{
+    margin-top: 70px;
+}
+
+/* OUR STORY Video */
+
+#video {
+    background-image: url(../images/town-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+ }
+#video::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 13, 87, 0.85)
+}
+.video {
+    position: relative;
+    z-index: 9999;
+}
+.play-button {  
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.play-button img {
+    width: 70%;
+    margin-top: 370px;
+  
+
+}
+.video p {
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 220px;
+}
+
+/* Expertise part */
+
+.expertise{
+    height: 750px;
+    width: 100%;
+}
+
+/* our-team part */
+
+#team {
+    background-image: url(../images/our-team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 720px;
+ }
+#team::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 13, 87, 0.85)
+}
+.team {
+    position: relative;
+    z-index: 1;
+}
+.team-text h2 {
+    color: #fff;
+}
+.team-text p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.member {
+    border: 1px solid #fff;
+}
+.member-img img {
+    width: 100%;
+}
+.member-detail h4 {
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+}
+.team p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #aaa9a9;
+}
+
+/* Our Works */
+
+#our-work{
+    height: 600px;
+}
+.work-img {
+    width: 100%;
+    height: 100%;
+}
+.work-img img {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+/* Co-part */
+
+#co-part{
+    background-image: url(../images/co-pic/co-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+#co-part::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 13, 87, 0.85)
+}
+.co-part {
+   position: relative;
+   z-index: 1;
+}
+.co-part{
+    padding-top: 90px;
+}
+
+/* Contact-part */
+
+#contact-parts{
+    height: 655px;
+    width: 100%;
+    margin-top: 70px;
+}
+.contact-part input{
+    width: 80%;
+    height: 50PX;
+    padding: 20px;
+}
+.contact-part textarea{
+    padding: 20px;
+}
+.contact-part img{
+   margin: 15px;
+}
